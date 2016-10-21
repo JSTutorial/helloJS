@@ -1,0 +1,85 @@
+* {
+	outline: none;
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#registarion-block {
+	color: #000000;
+	margin-top: 100px;
+	text-align: center;
+}
+.prev-text {
+	font-size: 25px;
+    font-weight: 100;
+}
+.prev-text .txt-name {
+	color: #000000;
+    font-size: 29px;
+}
+
+.prev-text {
+    margin-bottom: 30px;
+}
+
+.js-from {
+	width: 400px;
+	display: inline-block;
+}
+
+.js-from .js-input {
+    background: #ffffff;
+    border: 2px solid #000000;
+    font-size: 15px;
+    border-radius: 50px;
+	width: 380px;
+	height: 30px;
+	margin: 5px;
+	padding: 5px 8px 5px 12px;
+    transition: all .4s ease-in-out;
+}
+.js-from .js-input:focus {
+    background: #000000;
+    color: #ffffff;
+}
+
+.js-from .js-input::-webkit-input-placeholder { color: #000000; }
+.js-from .js-input::-moz-placeholder          { color: #000000; }
+.js-from .js-input:-moz-placeholder           { color: #000000; }
+.js-from .js-input:-ms-input-placeholder      { color: #000000; }
+.js-from .js-input:focus::-webkit-input-placeholder { color: #ffffff; }
+.js-from .js-input:focus::-moz-placeholder          { color: #ffffff; }
+.js-from .js-input:focus:-moz-placeholder           { color: #ffffff; }
+.js-from .js-input:focus:-ms-input-placeholder      { color: #ffffff; }
+
+.js-from .js-submit {
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    font-size: 17px;
+	width: 150px;
+	padding: 10px 0;
+	margin: 20px auto;
+	display: block;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.js-from .js-submit:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+
+::selection {
+    background: #000000;
+    color: #ffffff;
+}
+::-moz-selection {
+    background: #000000;
+    color: #ffffff;
+}
